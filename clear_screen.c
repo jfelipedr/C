@@ -15,12 +15,12 @@ int main()
     scanf("%c", &key);
 
     if (key == 'c' || key == 'C')
-    {   
+    {
         system("cls");
         puts("You have cleaned your screen :D "); //Use puts() to print inside an if statement, but not 100% necessary
     }
     else
         puts("You have not cleaned your screen :( ");
-    
+
     return 0;
 }

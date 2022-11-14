@@ -10,18 +10,18 @@ int main()
     //also we can read the two numbers at same time with a space or enter between then :
     printf("Write two numbers : ");
     scanf("%f %f", &a, &b);
-    
+
     sum = a + b;
     printf("Sum : %.1f\t", sum);
 
     sub = a - b;
     printf("Sub : %.1f\n", sub);
-    
+
     mult = a * b;
     printf("Mult : %.1f\t", mult);
-    
+
     div = a / b;
     printf("Div : %.1f", div);
-    
+
     return 0;
 }
